@@ -12,9 +12,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="bg-[#F1F4F5] font-['Poppins']">
-    <div class="flex flex-col">
+    <div class="flex flex-col md:px-10 px-3 justify-between">
     <nav class="relative px-4 py-4 flex justify-between items-center bg-[#F1F4F5] m-10">
-      <div class="flex items-center">
+      <div class="flex items-center justify-evenly">
 		<a class="flex items-center text-3xl font-bold leading-none" href="#">
       <!-- Logo -->
 			<svg
@@ -174,11 +174,11 @@
 	</div>
     </div>
           </div>
-    <section class="hero max-w-6xl mx-auto py-12">
-      <div class="flex flex-row items-center justify-between">
-         <div class="flex flex-col gap-y-10">
+    <section class="hero max-w-6xl mx-auto py-12 md:px-8">
+      <div class="flex md:flex-row flex-col md:items-center justify-between">
+         <div class="flex flex-col md:gap-y-10 md:px-0 gap-y-5 px-4">
             <div class="w-fit gap-x-2 px-3 py-2 small-badge flex flex-row bg-white rounded-full">
-                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-5 md:w-6 shrink-0" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12.5 22.5C18.0228 22.5 22.5 18.0228 22.5 12.5C22.5 6.97715 18.0228 2.5 12.5 2.5C6.97715 2.5 2.5 6.97715 2.5 12.5C2.5 18.0228 6.97715 22.5 12.5 22.5Z" stroke="#080C2E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M8.50001 3.5H9.50001C7.55001 9.34 7.55001 15.66 9.50001 21.5H8.50001" stroke="#080C2E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M15.5 3.5C17.45 9.34 17.45 15.66 15.5 21.5" stroke="#080C2E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -186,24 +186,25 @@
                     <path d="M3.5 9.50001C9.34 7.55001 15.66 7.55001 21.5 9.50001" stroke="#080C2E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
                 <a href="#">
-                <p class="text-base font-semibold text-indigo-950">
+                <p class="md:text-base text-sm whitespace-nowrap overflow-hidden font-semibold text-indigo-950">
                     We host more than 120,000 websites
                 </p>
                 </a>          
             </div>
-            <div class="flex gap-y-2 flex-col">   
-                <h1 class="text-indigo-950 font-['Clash_Display'] text-[70px] leading-none">
-                    Grow Online<br>
+            <div class=" sm:gap-y-4 flex gap-y-2 flex-col">   
+                <h1 class="lg:text-[60px] text-4xl lg:w-[500px] md:w-[300px] w-[300px] md:leading-none text-indigo-950 font-['Clash_Display'] leading-none">
+                    Grow Online
                     Business Faster
                 </h1>
-                <p class="text-base leading-loose text-gray-500">
-                    We provide a variety of servers to grow your users </br>
+                <p class="lg:text-lg lg:leading-loose md:text-base text-sm md:leading-loose leading-loose lg:w-[489px] md:w-[350px] w-[300px] text-gray-500">
+                    We provide a variety of servers to grow your users 
                     acquisition much user-friendly and boosting up sales.
                 </p>
             </div>
-            <div class="flex flex-row gap-x-4 items-center">
-                <a href="#" class="text-lg hover:bg-indigo-950 text-base bg-violet-700 text-white py-4 rounded-full font-semibold px-10">Try Free Trial</a> 
-            <a href="#" class="flex gap-x-2 text-violet-700 font-semibold">
+            <div class="flex flex-row gap-y-7 gap-x-4 items-center">
+                <a href="#" class="text-lg md:text-base text-sm hover:bg-indigo-950 bg-violet-700 text-white md:py-4 md:px-8 py-3 px-4 rounded-full font-semibold px-10">
+                  Try Free Trial</a> 
+            <a href="#" class="flex gap-x-2 text-violet-700 font-semibold lg:text-lg md:text-base text-sm ml-2">
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M20.5 12.2V13.9C20.5 17.05 18.7 18.4 16 18.4H7C4.3 18.4 2.5 17.05 2.5 13.9V8.5C2.5 5.35 4.3 4 7 4H9.7C9.57 4.38 9.5 4.8 9.5 5.25V9.15002C9.5 10.12 9.82 10.94 10.39 11.51C10.96 12.08 11.78 12.4 12.75 12.4V13.79C12.75 14.3 13.33 14.61 13.76 14.33L16.65 12.4H19.25C19.7 12.4 20.12 12.33 20.5 12.2Z" stroke="#640EF1" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M22.5 5.25V9.15002C22.5 10.64 21.74 11.76 20.5 12.2C20.12 12.33 19.7 12.4 19.25 12.4H16.65L13.76 14.33C13.33 14.61 12.75 14.3 12.75 13.79V12.4C11.78 12.4 10.96 12.08 10.39 11.51C9.82 10.94 9.5 10.12 9.5 9.15002V5.25C9.5 4.8 9.57 4.38 9.7 4C10.14 2.76 11.26 2 12.75 2H19.25C21.2 2 22.5 3.3 22.5 5.25Z" stroke="#640EF1" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -216,14 +217,14 @@
                 Schedule Demo</a>
             </div>
          </div>
-         <div class="flex flex-row items-center">
-            <img src="images/illustration-header.png" class="h-[550px]">
+         <div class="flex md:flex-row py-6 px-4 items-center">
+            <img src="images/illustration-header.png" class="lg:h-[550px] h-[350px]">
          </div>
       </div>
     </section>
 
-    <div class="section partners max-w-6-xl mx-auto py-12">
-        <div class="flex flex-row gap-x-10 justify-center items-center">
+    <div class="section partners max-w-6-xl mx-auto md:py-12">
+        <div class="flex md:flex-row flex-col gap-6 md:gap-x-10 px-10 justify-center md:items-center">
             <svg width="142" height="34" viewBox="0 0 142 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_1_375)">
                 <path d="M43.3155 24.3168H53.2269V21.3314H46.8382V10.0865H43.3155V24.3168Z" fill="#080C2E"/>
@@ -312,14 +313,14 @@
         </div>
     </div>
 
-    <section class="features max-w-6xl mx-auto py-12">
-        <h3 class="text-indigo-950 font-['Clash_Display'] text-5xl text-center mb-7">
+    <section class="features lg:max-w-6xl max-w-xl mx-auto py-12">
+        <h3 class="text-indigo-950 font-['Clash_Display'] lg:text-5xl md:text-4xl text-3xl text-center mb-7">
             Your Best Choice
         </h3>
-        <div class="grid grid-cols-4 gap-x-8">
+        <div class="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 place-items-center">
         <!-- Extra Layers -->
-             <div class="grid grid-cols-4 gap-x-8 ml-10">
-            <div class="relative group size-[250px] mt-10 mb-8 ml-10 flex-col bg-white transition-all duration-300 hover:bg-[#080C2E] rounded-2xl px-5 py-4 gap-y-8 gap-x-10 overflow-hidden">
+             <div class="grid lg:grid-cols-4 gap-x-10">
+            <div class="relative group size-[250px] md:mt-10 md:mb-8 mt-5 mb-5 flex-col bg-white transition-all duration-300 hover:bg-[#080C2E] rounded-2xl px-5 py-4 gap-y-8 gap-x-10 overflow-hidden">
             <!--Hover -->
             <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               <svg width="178" height="221" viewBox="0 0 178 221" fill="none" xmlns="http://www.w3.org/2000/svg" class="blur-2xl scale-100">
@@ -372,8 +373,8 @@
           </div>
         </div>
         <!-- Customizable -->
-             <div class="grid grid-cols-4 gap-x-8 ml-10">
-            <div class="relative group size-[250px] mt-10 mb-8 ml-10 flex-col bg-white transition-all duration-300 hover:bg-[#080C2E] rounded-2xl px-5 py-4 gap-y-8 gap-x-10 overflow-hidden">
+             <div class="grid lg:grid-cols-4 gap-x-6">
+            <div class="relative group size-[250px] md:mt-10 md:mb-8 mt-5 mb-5 flex-col bg-white transition-all duration-300 hover:bg-[#080C2E] rounded-2xl px-5 py-4 gap-y-8 gap-x-10 overflow-hidden">
             <!--Hover -->
             <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               <svg width="178" height="221" viewBox="0 0 178 221" fill="none" xmlns="http://www.w3.org/2000/svg" class="blur-2xl scale-125">
@@ -418,8 +419,8 @@
           </div>
         </div>
             <!-- AI Automation -->
-             <div class="grid grid-cols-4 gap-x-8 ml-10">
-            <div class="relative group size-[250px] mt-10 mb-8 ml-10 flex-col bg-white transition-all duration-300 hover:bg-[#080C2E] rounded-2xl px-5 py-4 gap-y-8 gap-x-10 overflow-hidden">
+             <div class="grid lg:grid-cols-4 gap-x-8">
+            <div class="relative group size-[250px] md:mt-10 md:mb-8 mt-5 mb-5 flex-col bg-white transition-all duration-300 hover:bg-[#080C2E] rounded-2xl px-5 py-4 gap-y-8 gap-x-10 overflow-hidden">
             <!--Hover -->
             <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-90 transition-opacity duration-300">
               <svg width="178" height="221" viewBox="0 0 178 221" fill="none" xmlns="http://www.w3.org/2000/svg" class="blur-2xl scale-125">
@@ -470,8 +471,8 @@
           </div>
         </div>
             <!-- Auto-Scaling -->
-             <div class="grid grid-cols-4 gap-x-8 ml-10">
-            <div class="relative group size-[250px] mt-10 mb-8 ml-10 flex-col bg-white transition-all duration-300 hover:bg-[#080C2E] rounded-2xl px-5 py-4 gap-y-8 gap-x-10 overflow-hidden">
+             <div class="grid lg:grid-cols-4 gap-x-8">
+            <div class="relative group size-[250px] md:mt-10 md:mb-8 mt-5 mb-5 flex-col bg-white transition-all duration-300 hover:bg-[#080C2E] rounded-2xl px-5 py-4 gap-y-8 gap-x-10 overflow-hidden">
             <!--Hover -->
             <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               <svg width="178" height="221" viewBox="0 0 178 221" fill="none" xmlns="http://www.w3.org/2000/svg" class="blur-2xl scale-125">
@@ -530,23 +531,23 @@
     </section>
 
     <section class="benefits max-w-6xl mx-auto py-12">
-        <div class="flex flex-row items-center gap-x-24">
-            <div class="flex flex-row items-center">
-                <img src="images/illustration-benefits.png" class="h-[550px]">
+        <div class="md:flex flex-row items-center gap-x-24">
+            <div class="flex flex-row items-center md:px-0 px-12">
+                <img src="images/illustration-benefits.png" class="lg:w-[650px] md:w-[650px] w-[350px]">
             </div>
-            <div class="flex flex-col gap-y-10">
-                <div class="flex gap-y-2 flex-col">   
-                    <h1 class="text-indigo-950 font-['Clash_Display'] text-5xl leading-tight">
-                        We Have Very</br>
+            <div class="flex flex-col md:gap-y-10 gap-y-5 md:items-start items-center">
+                <div class="flex gap-y-2 flex-col md:pt-0 pt-8">   
+                    <h1 class="text-indigo-950 font-['Clash_Display'] lg:text-5xl md:text-4xl text-3xl lg:w-[500px] md:w-[380px] w-[300px] leading-tight">
+                        We Have Very
                         Strong Ecosystem
                     </h1>
-                    <p class="text-base leading-loose text-gray-500">
+                    <p class="lg:text-base text-sm text-xs lg:w-[450px] md:w-[330px] w-[350px] lg:leading-loose md:leading-loose leading-loose text-gray-500">
                         We provide a variety of servers to grow your users</br>
                         acquisition much user-friendly and boosting up sales.
                     </p>
                 </div>
                 <div class="flex flex-col gap-y-5">
-                    <div class="card-benefits flex flex-row bg-white rounded-2xl p-5 items-center gap-x-3">
+                    <div class="card-benefits flex flex-row bg-white rounded-2xl p-5 items-center gap-x-3 lg:w-[500px] w-[350px]">
                         <svg width="47" height="46" viewBox="0 0 47 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M18.9 38.3333H28.1C35.7667 38.3333 38.8333 35.2666 38.8333 27.6V18.4C38.8333 10.7333 35.7667 7.66663 28.1 7.66663H18.9C11.2333 7.66663 8.16666 10.7333 8.16666 18.4V27.6C8.16666 35.2666 11.2333 38.3333 18.9 38.3333Z" stroke="#640EF1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M20.625 32.5833H26.375C31.1667 32.5833 33.0833 30.6666 33.0833 25.875V20.125C33.0833 15.3333 31.1667 13.4166 26.375 13.4166H20.625C15.8333 13.4166 13.9167 15.3333 13.9167 20.125V25.875C13.9167 30.6666 15.8333 32.5833 20.625 32.5833Z" stroke="#640EF1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
@@ -604,11 +605,11 @@
                         </div>                        
                     </div>
                 </div>
-                <div class="flex flex-row gap-x-4 items-center">
-                    <a href="#" class="text-lg hover:bg-indigo-950 text-base bg-violet-700 text-white py-4 rounded-full font-semibold px-10">
+                <div class="flex flex-row gap-x-2 items-center mt-6">
+                    <a href="#" class="lg:text-lg md:text-base hover:bg-indigo-950 text-base bg-violet-700 text-white md:py-4 py-3 rounded-full font-semibold md:px-10 px-5">
                         Explore More
                     </a> 
-                <a href="#" class="flex gap-x-2 text-violet-700 font-semibold">
+                <a href="#" class="flex gap-x-2 text-violet-700 font-semibold lg:text-lg md:text-base ml-4">
                     <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M20.5 12.2V13.9C20.5 17.05 18.7 18.4 16 18.4H7C4.3 18.4 2.5 17.05 2.5 13.9V8.5C2.5 5.35 4.3 4 7 4H9.7C9.57 4.38 9.5 4.8 9.5 5.25V9.15002C9.5 10.12 9.82 10.94 10.39 11.51C10.96 12.08 11.78 12.4 12.75 12.4V13.79C12.75 14.3 13.33 14.61 13.76 14.33L16.65 12.4H19.25C19.7 12.4 20.12 12.33 20.5 12.2Z" stroke="#640EF1" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                         <path d="M22.5 5.25V9.15002C22.5 10.64 21.74 11.76 20.5 12.2C20.12 12.33 19.7 12.4 19.25 12.4H16.65L13.76 14.33C13.33 14.61 12.75 14.3 12.75 13.79V12.4C11.78 12.4 10.96 12.08 10.39 11.51C9.82 10.94 9.5 10.12 9.5 9.15002V5.25C9.5 4.8 9.57 4.38 9.7 4C10.14 2.76 11.26 2 12.75 2H19.25C21.2 2 22.5 3.3 22.5 5.25Z" stroke="#640EF1" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -625,17 +626,17 @@
       </section>
 
       <section class="showcases mx-auto py-12">
-        <div class="flex flex-col gap-y-8">
-            <div class="flex gap-y-2 flex-col text-center">   
-                <h1 class="text-indigo-950 font-['Clash_Display'] text-5xl">
+        <div class="flex flex-col md:gap-y-12 gap-y-8 items-center">
+            <div class="flex gap-y-2 flex-col text-center items-center gap-x-10 max-w-6xl">   
+                <h1 class="text-indigo-950 font-['Clash_Display'] lg:text-5xl md:text-4xl text-3xl">
                     Our Showcase
                 </h1>
-                <p class="text-base leading-loose text-gray-500">
-                    They built amazing website to help more people around the world</br>
+                <p class="lg:text-lg md:text-base text-sm leading-loose leading-loose text-gray-500 lg:w-[600px] md:w-[530px] w-[340px]">
+                    They built amazing website to help more people around the world
                     by using our recommendation services and products
                 </p>
             </div>
-            <div class="flex flex-wrap gap-x-10 justify-center">
+            <div class="flex flex-wrap gap-x-10 justify-center gap-y-12">
                 <div class="group relative">
                     <div class="group-hover:opacity-100 transition-all ease-in-out duration-500 opacity-0 absolute justify-center w-full bottom-8 flex">
                         <a href="#" class="hover:bg-[#080C2E] transition-all ease-in-out duration-500 font-semibold shadow-violet-700 px-7 py-3 rounded-full bg-violet-700 text-white">
@@ -673,127 +674,155 @@
       </section>
 
       <div class="faq-wrapper max-w-6xl mx-auto py-12">
-        <h1 class="text-indigo-950 font-['Clash_Display'] text-5xl text-center mb-8">
+        <h1 class="text-indigo-950 font-['Clash_Display'] lg:text-5xl md:text-4xl text-3xl text-center pb-12">
             Frequently Asked Questions
         </h1>
-        <div class="grid grid-cols-2 gap-x-8">
+        <div class="grid md:grid-cols-2 gap-x-8">
             <div class="parent-cards-faq flex flex-col gap-y-6">
-                <div class="flex flex-row gap-x-6 card-faq bg-white rounded-2xl p-5">
-                    <div class="flex flex-col gap-y-5">
-                        <h3 class="font-bold text-xl text-indigo-950">
-                            Why do we need to use Kapp?
-                        </h3>
-                        <p class="text-base leading-loose text-gray-500">
+                 <div class="max-w-2xl mx-auto bg-white p-4 gap-x-6 rounded-2xl w-full">
+                      <div id="accordion-collapse" data-accordion="collapse" data-active-classes="bg-none text-gray-900 text-white" data-inactive-classes="text-gray-500 dark:text-gray-400">
+                          <button type="button" class="flex items-center justify-between w-full font-medium text-left focus:outline-none focus-visible:outline-none focus:ring-0 focus:bg-transparent active:bg-transparent" 
+                            data-accordion-target="#accordion-collapse-body-1" aria-expanded="false" aria-controls="accordion-collapse-body-1">
+                            <span class="font-bold text-xl text-indigo-950">
+                              Why do we need to use Kapp?
+                            </span>
+                          <!-- accordion -->
+                           <svg data-accordion-icon class="w-8 h-12 shrink-0" width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="30.5" y="30" width="30" height="30" rx="15" transform="rotate(-180 30.5 30)" fill="#080C2E"/>
+                            <path d="M9.56 17.2876L14.45 12.3976C15.0275 11.8201 15.9725 11.8201 16.55 12.3976L21.44 17.2876" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        </button>
+                        <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
+                          <div class="p-0">
+                            <p class="text-base leading-loose text-gray-500 mb-4">
                             Kapp is able to develop by themselve without removing 
                             the parents permission and lorem dolor si amet fully 
                             run network at 100% avoiding data-loss at any moments
                         </p>
-                        <a href="#" class="flex gap-x-2 text-violet-700 font-semibold">
+                        <a href="#" class="flex gap-x-2 text-violet-700 font-semibold mb-4">
                             Learn More
                         </a>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    
-                    <a href="#">
-                        <svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                 <div class="max-w-2xl mx-auto bg-white p-4 gap-x-6 rounded-2xl w-full">
+                      <div id="accordion-collapse-2" data-accordion="collapse-2" data-active-classes="bg-none text-gray-900 text-white" data-inactive-classes="text-gray-500 dark:text-gray-400">
+                          <button type="button" class="flex items-center justify-between w-full font-medium text-left focus:outline-none focus-visible:outline-none focus:ring-0 focus:bg-transparent active:bg-transparent" 
+                            data-accordion-target="#accordion-collapse-body-2" aria-expanded="false" aria-controls="accordion-collapse-body-2">
+                            <span class="font-bold text-xl text-indigo-950">
+                              Do we need to pay 6 months per item?
+                            </span>
+                          <!-- accordion -->
+                           <svg data-accordion-icon class="w-8 h-12 shrink-0" width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect x="30.5" y="30" width="30" height="30" rx="15" transform="rotate(-180 30.5 30)" fill="#080C2E"/>
                             <path d="M9.56 17.2876L14.45 12.3976C15.0275 11.8201 15.9725 11.8201 16.55 12.3976L21.44 17.2876" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>     
-                    </a>
-                </div>
-                <div class="flex flex-row gap-x-6 card-faq bg-white rounded-2xl p-5">
-                    <div class="flex flex-col gap-y-5">
-                        <h3 class="font-bold text-xl text-indigo-950">
-                            Do we need to pay 6 months per item?
-                        </h3>
-                        <p class="text-base leading-loose text-gray-500">
+                        </button>
+                        <div id="accordion-collapse-body-2" class="hidden" aria-labelledby="accordion-collapse-body-2">
+                          <div class="p-0">
+                            <p class="text-base leading-loose text-gray-500 mb-4">
                             Kapp is able to develop by themselve without removing 
                             the parents permission and lorem dolor si amet fully 
                             run network at 100% avoiding data-loss at any moments
                         </p>
-                        <a href="#" class="flex gap-x-2 text-violet-700 font-semibold">
+                        <a href="#" class="flex gap-x-2 text-violet-700 font-semibold mb-4">
                             Learn More
                         </a>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    
-                    <a href="#">
-                        <svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                 <div class="max-w-2xl mx-auto bg-white p-4 gap-x-6 rounded-2xl w-full">
+                      <div id="accordion-collapse-3" data-accordion="collapse-3" data-active-classes="bg-none text-gray-900 text-white" data-inactive-classes="text-gray-500 dark:text-gray-400">
+                          <button type="button" class="flex items-center justify-between w-full font-medium text-left focus:outline-none focus-visible:outline-none focus:ring-0 focus:bg-transparent active:bg-transparent" 
+                            data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
+                            <span class="font-bold text-xl text-indigo-950">
+                              How to migrate from other service?
+                            </span>
+                          <!-- accordion -->
+                           <svg data-accordion-icon class="w-8 h-12 shrink-0" width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect x="30.5" y="30" width="30" height="30" rx="15" transform="rotate(-180 30.5 30)" fill="#080C2E"/>
                             <path d="M9.56 17.2876L14.45 12.3976C15.0275 11.8201 15.9725 11.8201 16.55 12.3976L21.44 17.2876" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>     
-                    </a>
-                </div>
-                <div class="flex flex-row gap-x-6 card-faq bg-white rounded-2xl p-5">
-                    <div class="flex flex-col gap-y-5">
-                        <h3 class="font-bold text-xl text-indigo-950">
-                            How to migrate from other service?
-                        </h3>
-                        <p class="text-base leading-loose text-gray-500">
+                        </button>
+                        <div id="accordion-collapse-body-3" class="hidden" aria-labelledby="accordion-collapse-body-3">
+                          <div class="p-0">
+                            <p class="text-base leading-loose text-gray-500 mb-4">
                             Kapp is able to develop by themselve without removing 
                             the parents permission and lorem dolor si amet fully 
                             run network at 100% avoiding data-loss at any moments
                         </p>
-                        <a href="#" class="flex gap-x-2 text-violet-700 font-semibold">
+                        <a href="#" class="flex gap-x-2 text-violet-700 font-semibold mb-4">
                             Learn More
                         </a>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    
-                    <a href="#">
-                        <svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="30.5" y="30" width="30" height="30" rx="15" transform="rotate(-180 30.5 30)" fill="#080C2E"/>
-                            <path d="M9.56 17.2876L14.45 12.3976C15.0275 11.8201 15.9725 11.8201 16.55 12.3976L21.44 17.2876" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>     
-                    </a>
-                </div>
             </div>
-            <div class="parent-cards-faq flex flex-col gap-y-6">
-                <div class="flex flex-row gap-x-6 card-faq bg-white rounded-2xl p-5">
-                    <div class="flex flex-col gap-y-5">
-                        <h3 class="font-bold text-xl text-indigo-950">
-                            What if data doesn’t get stored?
-                        </h3>
-                        <p class="text-base leading-loose text-gray-500">
+
+            <!-- Right Space -->
+            <div class="parent-cards-faq flex flex-col gap-y-6 md:pt-0 pt-6">
+                 <div class="max-w-2xl mx-auto bg-white p-4 gap-x-6 rounded-2xl w-full">
+                      <div id="accordion-collapse-4" data-accordion="collapse-4" data-active-classes="bg-none text-gray-900 text-white" data-inactive-classes="text-gray-500 dark:text-gray-400">
+                          <button type="button" class="flex items-center justify-between w-full font-medium text-left focus:outline-none focus-visible:outline-none focus:ring-0 focus:bg-transparent active:bg-transparent" 
+                            data-accordion-target="#accordion-collapse-body-4" aria-expanded="false" aria-controls="accordion-collapse-body-4">
+                            <span class="font-bold text-xl text-indigo-950">
+                              What if data doesn’t get stored?
+                            </span>
+                          <!-- accordion -->
+                           <svg data-accordion-icon class="w-8 h-12 shrink-0" width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="30.5" y="30" width="30" height="30" rx="15" transform="rotate(-180 30.5 30)" fill="#080C2E"/>
+                            <path d="M9.56 17.2876L14.45 12.3976C15.0275 11.8201 15.9725 11.8201 16.55 12.3976L21.44 17.2876" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        </button>
+                        <div id="accordion-collapse-body-4" class="hidden" aria-labelledby="accordion-collapse-heading-4">
+                          <div class="p-0">
+                            <p class="text-base leading-loose text-gray-500 mb-4">
                             Kapp is able to develop by themselve without removing 
                             the parents permission and lorem dolor si amet fully 
                             run network at 100% avoiding data-loss at any moments
                         </p>
-                        <a href="#" class="flex gap-x-2 text-violet-700 font-semibold">
+                        <a href="#" class="flex gap-x-2 text-violet-700 font-semibold mb-4">
                             Learn More
                         </a>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    
-                    <a href="#">
-                        <svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                 <div class="max-w-2xl mx-auto bg-white p-4 gap-x-6 rounded-2xl w-full">
+                      <div id="accordion-collapse-5" data-accordion="collapse-5" data-active-classes="bg-none text-gray-900 text-white" data-inactive-classes="text-gray-500 dark:text-gray-400">
+                          <button type="button" class="flex items-center justify-between w-full font-medium text-left focus:outline-none focus-visible:outline-none focus:ring-0 focus:bg-transparent active:bg-transparent" 
+                            data-accordion-target="#accordion-collapse-body-5" aria-expanded="false" aria-controls="accordion-collapse-body-5">
+                            <span class="font-bold text-xl text-indigo-950">
+                              Can we guarantee no any loss at all?
+                            </span>
+                          <!-- accordion -->
+                           <svg data-accordion-icon class="w-8 h-12 shrink-0" width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect x="30.5" y="30" width="30" height="30" rx="15" transform="rotate(-180 30.5 30)" fill="#080C2E"/>
                             <path d="M9.56 17.2876L14.45 12.3976C15.0275 11.8201 15.9725 11.8201 16.55 12.3976L21.44 17.2876" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>     
-                    </a>
-                </div>
-                <div class="flex flex-row gap-x-6 card-faq bg-white rounded-2xl p-5">
-                    <div class="flex flex-col gap-y-5">
-                        <h3 class="font-bold text-xl text-indigo-950">
-                            Can we guarantee no any loss at all?
-                        </h3>
-                        <p class="text-base leading-loose text-gray-500">
+                        </button>
+                        <div id="accordion-collapse-body-5" class="hidden" aria-labelledby="accordion-collapse-heading-5">
+                          <div class="p-0">
+                            <p class="text-base leading-loose text-gray-500 mb-4">
                             Kapp is able to develop by themselve without removing 
                             the parents permission and lorem dolor si amet fully 
                             run network at 100% avoiding data-loss at any moments
                         </p>
-                        <a href="#" class="flex gap-x-2 text-violet-700 font-semibold">
+                        <a href="#" class="flex gap-x-2 text-violet-700 font-semibold mb-4">
                             Learn More
                         </a>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    
-                    <a href="#">
-                        <svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="30.5" y="30" width="30" height="30" rx="15" transform="rotate(-180 30.5 30)" fill="#080C2E"/>
-                            <path d="M9.56 17.2876L14.45 12.3976C15.0275 11.8201 15.9725 11.8201 16.55 12.3976L21.44 17.2876" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>     
-                    </a>
-                </div>
-                <div class="flex flex-row gap-x-6 card-faq bg-[#080C2E] rounded-2xl p-5 items-center justify-between">
-                    <div class="flex flex-row gap-x-4 items-center">
-                    <a href="#" class="flex gap-x-2 text-white">
-                        <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                     <div class="max-w-2xl mx-auto bg-[#080C2E] p-4 gap-x-6 rounded-2xl w-full">
+                      <div id="accordion-collapse-6" data-accordion="collapse-6" data-active-classes="bg-none text-gray-900 text-white" data-inactive-classes="text-gray-500 dark:text-gray-400">
+                          <button type="button" class="flex items-center justify-between w-full font-medium text-left focus:outline-none focus-visible:outline-none focus:ring-0 focus:bg-transparent active:bg-transparent" 
+                            data-accordion-target="#accordion-collapse-body-6" aria-expanded="false" aria-controls="accordion-collapse-body-6">
+                            <span class="flex gap-x-2 text-white">
+                              <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M20.5 12.2V13.9C20.5 17.05 18.7 18.4 16 18.4H7C4.3 18.4 2.5 17.05 2.5 13.9V8.5C2.5 5.35 4.3 4 7 4H9.7C9.57 4.38 9.5 4.8 9.5 5.25V9.15002C9.5 10.12 9.82 10.94 10.39 11.51C10.96 12.08 11.78 12.4 12.75 12.4V13.79C12.75 14.3 13.33 14.61 13.76 14.33L16.65 12.4H19.25C19.7 12.4 20.12 12.33 20.5 12.2Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M22.5 5.25V9.15002C22.5 10.64 21.74 11.76 20.5 12.2C20.12 12.33 19.7 12.4 19.25 12.4H16.65L13.76 14.33C13.33 14.61 12.75 14.3 12.75 13.79V12.4C11.78 12.4 10.96 12.08 10.39 11.51C9.82 10.94 9.5 10.12 9.5 9.15002V5.25C9.5 4.8 9.57 4.38 9.7 4C10.14 2.76 11.26 2 12.75 2H19.25C21.2 2 22.5 3.3 22.5 5.25Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M7.9 22H15.1" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -801,48 +830,59 @@
                             <path d="M18.9955 7.25H19.0045" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M16.1957 7.25H16.2047" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M13.3954 7.25H13.4044" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>                            
-                        Send e-mail to us for other questions
-                    </a>
+                            </svg>  
+                              Send e-mail to us for other questions
+                            </span>
+                          <!-- accordion -->
+                           <svg data-accordion-icon class="w-8 h-12 shrink-0" width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="30.5" y="30" width="30" height="30" rx="15" transform="rotate(-180 30.5 30)" fill="#ffff"/>
+                            <path d="M9.56 17.2876L14.45 12.3976C15.0275 11.8201 15.9725 11.8201 16.55 12.3976L21.44 17.2876" stroke="#080C2E" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        </button>
+                        <div id="accordion-collapse-body-6" class="hidden" aria-labelledby="accordion-collapse-heading-6">
+                          <div class="p-0">
+                            <p class="text-base leading-loose text-[#8D90A8] mb-4">
+                            Kapp is able to develop by themselve without removing 
+                            the parents permission and lorem dolor si amet fully 
+                            run network at 100% avoiding data-loss at any moments
+                        </p>
+                        <a href="#" class="flex gap-x-2 text-violet-700 font-semibold mb-4">
+                            Learn More
+                        </a>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    
-                    <a href="#">
-                        <svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="0.5" y="30" width="30" height="30" rx="15" transform="rotate(-90 0.5 30)" fill="white"/>
-                            <path d="M13.2125 9.05994L18.1025 13.9499C18.68 14.5274 18.68 15.4724 18.1025 16.0499L13.2125 20.9399" stroke="#080C2E" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>                                                        
-                    </a>
-                </div>
             </div>
         </div>
       </div>
-         <section class="relative w-full pt-20" style="background: linear-gradient(to top, #070C29 50%, transparent 50%)">
-      <section class="flex m-8 bg-[#640EF1] rounded-[40px] p-8 justify-evenly items-center">
-      <!-- Left Space  -->
-        <div>
-       <div class="w-fit gap-x-2 px-4 py-2 m-8 small-badge flex flex-row bg-white rounded-full">
-         <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+         <section class="relative pt-20 lg:w-full md:w-full w-fit place-items-center" style="background: linear-gradient(to top, #070C29 50%, transparent 50%)">
+            <section class="w-fit md:m-8 bg-[#640EF1] md:rounded-[40px] rounded-[20px] md:p-8 md:px-6 sm:px-4 px-2 gap-4 place-items-center">
+    <!-- Left Space -->
+      <section class="flex md:items-center xl:flex-row flex-col">
+         <div>
+       <div class="w-fit items-center gap-x-2 px-4 py-2 my-8 small-badge flex flex-row bg-white rounded-full md:ml-10">
+         <svg class="w-5 md:w-6  shrink-0" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M12.5 22.5C18.0228 22.5 22.5 18.0228 22.5 12.5C22.5 6.97715 18.0228 2.5 12.5 2.5C6.97715 2.5 2.5 6.97715 2.5 12.5C2.5 18.0228 6.97715 22.5 12.5 22.5Z" stroke="#080C2E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
         <path d="M8.50001 3.5H9.50001C7.55001 9.34 7.55001 15.66 9.50001 21.5H8.50001" stroke="#080C2E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
         <path d="M15.5 3.5C17.45 9.34 17.45 15.66 15.5 21.5" stroke="#080C2E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
         <path d="M3.5 16.5V15.5C9.34 17.45 15.66 17.45 21.5 15.5V16.5" stroke="#080C2E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
         <path d="M3.5 9.50001C9.34 7.55001 15.66 7.55001 21.5 9.50001" stroke="#080C2E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
-        <a href="#"><p class="text-base font-semibold text-indigo-950">We host more than 120,000 websites</p></a>
+        <a href="#"><p class="text-sm md:text-base whitespace-nowrap overflow-hidden font-semibold text-indigo-950">We host more than 120,000 websites</p></a>
       </div>
-      <!-- start growing -->
-       <h3 class="text-white text-[46px] font-semibold font-['clash_display'] ml-8 ">
+       <!-- start growing -->
+       <h3 class="text-white md:text-[46px] text-[28px] font-semibold font-['clash_display'] md:ml-8 ">
         Start Growing Today
       </h3>
-      <p class="text-white text-[16px] leading-[2] ml-8 ">
-        We provide a variety of servers to grow your users <br/>
+      <p class="text-white md:text-base text-sm md:leading-[2] leading-[2] md:text-left  md:ml-8 md:w-[439px] w-[300px]">
+        We provide a variety of servers to grow your users
         acquisition much user-friendly and boosting up sales.
       </p>
-      <!-- Button Explore More -->
+        <!-- Button Explore More -->
          <div class="flex flex-row">
-            <a href="#" class="text-[16px] bg-[#FFD15A] text-black hover:bg-indigo-950 hover:text-white rounded-full font-bold py-4 px-10 mt-8 ml-8 ">Explore More</a>
-          <div class="flex gap-x-4 items-center px-4  mt-8">
-            <a href="#" class="flex text-[16px] text-white font-semibold px-2 gap-x-1 ml-4">
+            <a href="#" class="items-center md:text-base text-sm bg-[#FFD15A] text-black hover:bg-indigo-950 hover:text-white rounded-full font-bold md:py-4 py-4 md:px-10 px-6 md:mt-8 mt-4 md:ml-8 ">Explore More</a>
+          <div class="flex gap-x-4 items-center md:px-4 px-2 md:mt-8 mt-4">
+            <a href="#" class="flex md:text-base text-sm items-center text-white font-semibold px-2 gap-x-1 ml-4">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M20 12.2V13.9C20 17.05 18.2 18.4 15.5 18.4H6.5C3.8 18.4 2 17.05 2 13.9V8.5C2 5.35 3.8 4 6.5 4H9.2C9.07 4.38 9 4.8 9 5.25V9.15002C9 10.12 9.32 10.94 9.89 11.51C10.46 12.08 11.28 12.4 12.25 12.4V13.79C12.25 14.3 12.83 14.61 13.26 14.33L16.15 12.4H18.75C19.2 12.4 19.62 12.33 20 12.2Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
               <path d="M22 5.25V9.15002C22 10.64 21.24 11.76 20 12.2C19.62 12.33 19.2 12.4 18.75 12.4H16.15L13.26 14.33C12.83 14.61 12.25 14.3 12.25 13.79V12.4C11.28 12.4 10.46 12.08 9.89 11.51C9.32 10.94 9 10.12 9 9.15002V5.25C9 4.8 9.07 4.38 9.2 4C9.64 2.76 10.76 2 12.25 2H18.75C20.7 2 22 3.3 22 5.25Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -856,24 +896,25 @@
           </div>
         </div>
         </div>
-      <!-- Web Crawl -->
+        <!-- Web Crawl -->
         <div>
-            <div class="flex flex-row items-center">
-         <div class="group mt-6 box-content size-32 p-10 bg-white rounded-[20px] ml-10 mb-6 relative overflow-hidden transition-all duration-300 hover:bg-[#080C2E] hover:shadow-lg cursor-pointer">
+            <div class="grid md:grid-cols-3 grid-cols-2 gap-4 gap-y-6 mb-6 lg:justify-evenly">
+         <div class="group mt-6 box-content md:size-32 size-[100px] p-10 bg-white rounded-[20px] lg:ml-10 relative overflow-hidden transition-all duration-300 hover:bg-[#080C2E] hover:shadow-lg cursor-pointer">
             <!-- Icon and Text -->
              <div class="relative z-10">
-                <div class="px-10 text-center">
+                <div class="md:px-10 px-[24.9px] text-center items-center">
+                    <!-- batas -->
                     <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <svg width="47" height="46" viewBox="0 0 47 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="md:m-0 ml-10" width="47" height="46" viewBox="0 0 47 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M17.5833 42.1666H29.0833C38.6667 42.1666 42.5 38.3333 42.5 28.7499V17.2499C42.5 7.66659 38.6667 3.83325 29.0833 3.83325H17.5833C8.00001 3.83325 4.16667 7.66659 4.16667 17.2499V28.7499C4.16667 38.3333 8.00001 42.1666 17.5833 42.1666Z" stroke="#640EF1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M18.7333 17.1924L13.9608 21.9649C13.405 22.5207 13.405 23.4599 13.9608 24.0157L18.7333 28.7882" stroke="#640EF1" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M27.9333 17.1924L32.7058 21.9649C33.2617 22.5207 33.2617 23.4599 32.7058 24.0157L27.9333 28.7882" stroke="#640EF1" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                 </div>
-                <h3 class="text-[18px] mt-5 text-center font-bold text-[#080C2E] group-hover:text-white transition-all duration-300">
+                <h3 class="md:text-lg mt-6 text-center font-bold text-[#080C2E] text- group-hover:text-white transition-all duration-300">
                     Web Crawl
                 </h3>
-                <!-- Hover Effect -->
+                <!-- Hover Effect JANGAN SENTUH -->
                  <!-- Icon -->
                  <div class="p-2 ml-6 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg" class="mx-auto absolute top-0 left-[49%] -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -896,15 +937,16 @@
                     </defs>
                     </svg>
                     </div>
-                 <h3 class="text-[16px] text-[#8D90A8] font-semibold text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                 <h3 class="md:text-base text-sm text-[#8D90A8] font-semibold text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 leading-none">
                     Learn More
                 </h3>
                 </div>
              </div>
                 <!-- Fast Report -->
-              <div class="group box-content size-32 p-10 bg-white ml-10 rounded-[20px] relative overflow-hidden transition-all duration-300 hover:bg-[#080C2E] hover:shadow-lg cursor-pointer">
+              <div class="group box-content mt-6 md:size-32 size-[100px] p-10 bg-white lg:ml-6 rounded-[20px] relative overflow-hidden transition-all duration-300 hover:bg-[#080C2E] hover:shadow-lg cursor-pointer">
               <div class="relative z-10">
-                <div class="px-10">
+                <!-- <div class="md:px-10 px-[16.9px]"> -->
+                  <div class="md:px-10 px-[25px]">
                     <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M18.4 38.3334H27.6C35.2667 38.3334 38.3333 35.2667 38.3333 27.6001V18.4001C38.3333 10.7334 35.2667 7.66675 27.6 7.66675H18.4C10.7333 7.66675 7.66666 10.7334 7.66666 18.4001V27.6001C7.66666 35.2667 10.7333 38.3334 18.4 38.3334Z" stroke="#640EF1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M20.125 32.5834H25.875C30.6667 32.5834 32.5833 30.6667 32.5833 25.8751V20.1251C32.5833 15.3334 30.6667 13.4167 25.875 13.4167H20.125C15.3333 13.4167 13.4167 15.3334 13.4167 20.1251V25.8751C13.4167 30.6667 15.3333 32.5834 20.125 32.5834Z" stroke="#640EF1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
@@ -923,10 +965,10 @@
                     <path d="M23 18.5916L21.1983 21.7349C20.7958 22.4249 21.1217 22.9999 21.9267 22.9999H24.0733C24.8783 22.9999 25.2042 23.5749 24.8017 24.2649L23 27.4082" stroke="#640EF1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                   </div>
-                    <h3 class="text-[18px] font-bold mt-5 text-center group-hover:text-white transition-all duration-300">Fast Report</h3>
+                    <h3 class="md:text-lg text-base font-bold mt-6 text-center group-hover:text-white transition-all duration-300 leading-none">Fast Report</h3>
                     <!-- Hover Effect -->
                      <div class="p-2 ml-6 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg" class="mx-auto absolute top-[0] right-[14%] -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg" class="mx-auto absolute top-[0] md:right-[14%] right-[6%] -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         <path d="M18.4 38.3334H27.6C35.2667 38.3334 38.3333 35.2667 38.3333 27.6001V18.4001C38.3333 10.7334 35.2667 7.66675 27.6 7.66675H18.4C10.7333 7.66675 7.66666 10.7334 7.66666 18.4001V27.6001C7.66666 35.2667 10.7333 38.3334 18.4 38.3334Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                         <path d="M20.125 32.5834H25.875C30.6667 32.5834 32.5833 30.6667 32.5833 25.8751V20.1251C32.5833 15.3334 30.6667 13.4167 25.875 13.4167H20.125C15.3333 13.4167 13.4167 15.3334 13.4167 20.1251V25.8751C13.4167 30.6667 15.3333 32.5834 20.125 32.5834Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                         <path d="M15.3525 7.66659V3.83325" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
@@ -959,22 +1001,22 @@
                     </defs>
                     </svg>
                     </div>
-                    <h3 class="text-[16px] text-[#8D90A8] font-semibold text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <h3 class="md:text-base text-sm  text-[#8D90A8] font-semibold text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 ">
                     Learn More
                     </h3>
                     </div>
                     </div>
               <!-- Anti-DDoS -->
-              <div class="group box-content size-32 p-10 bg-white ml-10 rounded-[20px] relative overflow-hidden transition-all duration-300 hover:bg-[#080C2E] hover:shadow-lg cursor-pointer">
+              <div class="group box-content md:mt-7 md:size-32 size-[100px] p-10 bg-white md:ml-2 rounded-[20px] relative overflow-hidden transition-all duration-300 hover:bg-[#080C2E] hover:shadow-lg cursor-pointer">
                 <div class="relative z-10">
-                <div class="px-10">
+                <div class="md:px-10 px-[25.9px]">
                     <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M20.7724 5.02424L11.2083 8.6084C9.00411 9.43256 7.20245 12.0392 7.20245 14.3967V28.6375C7.20245 30.8992 8.69747 33.87 10.5183 35.2309L18.76 41.3834C21.4625 43.4151 25.9091 43.4151 28.6116 41.3834L36.8533 35.2309C38.6741 33.87 40.1691 30.8992 40.1691 28.6375V14.3967C40.1691 12.0392 38.3674 9.43256 36.1633 8.6084L26.5991 5.02424C24.9699 4.43007 22.3633 4.43007 20.7724 5.02424Z" stroke="#640EF1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M23.6666 21.6801C23.59 21.6801 23.4941 21.6801 23.4175 21.6801C21.6158 21.6226 20.1783 20.1275 20.1783 18.3067C20.1783 16.4475 21.6925 14.9333 23.5516 14.9333C25.4108 14.9333 26.925 16.4475 26.925 18.3067C26.9058 20.1467 25.4683 21.6226 23.6666 21.6801Z" stroke="#640EF1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M19.8525 27.0467C18.0125 28.2734 18.0125 30.2858 19.8525 31.5125C21.9416 32.9117 25.3725 32.9117 27.4616 31.5125C29.3016 30.2858 29.3016 28.2734 27.4616 27.0467C25.3916 25.6475 21.9608 25.6475 19.8525 27.0467Z" stroke="#640EF1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                 </div>
-                <h3 class="text-[18px] font-bold mt-5 text-center group-hover:text-white transition-all duration-300">Anti-DDoS</h3>
+                <h3 class="text-lg font-bold mt-6 text-center group-hover:text-white transition-all duration-300 leading-none">Anti-DDoS</h3>
                 <!-- Hover Effect -->
                  <div class="p-2 ml-6 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300" >
                     <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg" class="mx-auto absolute top-0 left-[50%] -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -983,7 +1025,7 @@
                     <path d="M19.8525 27.0467C18.0125 28.2734 18.0125 30.2858 19.8525 31.5125C21.9416 32.9117 25.3725 32.9117 27.4616 31.5125C29.3016 30.2858 29.3016 28.2734 27.4616 27.0467C25.3916 25.6475 21.9608 25.6475 19.8525 27.0467Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                 </div>
-                    <h3 class="text-[16px] text-[#8D90A8] font-semibold text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <h3 class="md:text-base text-sm text-[#8D90A8] font-semibold text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     Learn More
                     </h3>
                     <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -1002,12 +1044,10 @@
                     </div>
                     </div>
               </div>
-            </div>
-        <!--Auto-Scale -->
-         <div class="flex flex-row ml-10 mb-8">
-            <div class="group box-content size-32 p-10 bg-white mr-8 rounded-[20px] relative overflow-hidden transition-all duration-300 hover:bg-[#080C2E] hover:shadow-lg cursor-pointer">
+              <!-- Auto-Scale -->
+            <div class="group box-content md:size-32 size-[100px] p-10 bg-white lg:ml-10  rounded-[20px] relative overflow-hidden transition-all duration-300 hover:bg-[#080C2E] hover:shadow-lg cursor-pointer">
               <div class="relative z-10">
-                <div class="px-10">
+                <div class="md:px-10 px-[26px]">
                     <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M13.52 35.2876V31.3201" stroke="#640EF1" stroke-width="3" stroke-linecap="round"/>
                     <path d="M23.3333 35.2875V27.3525" stroke="#640EF1" stroke-width="3" stroke-linecap="round"/>
@@ -1017,7 +1057,7 @@
                     <path d="M17.5833 42.6666H29.0833C38.6667 42.6666 42.5 38.8333 42.5 29.2499V17.7499C42.5 8.16659 38.6667 4.33325 29.0833 4.33325H17.5833C8.00001 4.33325 4.16667 8.16659 4.16667 17.7499V29.2499C4.16667 38.8333 8.00001 42.6666 17.5833 42.6666Z" stroke="#640EF1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                     </div>
-                    <h3 class="text-[18px] font-bold mt-5 text-center group-hover:text-white transition-all duration-300">Auto-Scale</h3>
+                    <h3 class="md:text-lg text-base font-bold mt-6 text-center group-hover:text-white transition-all duration-300 leading-none">Auto-Scale</h3>
                     <!-- Hover Effect -->
                      <div class="p-2 ml-6 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300" >
                         <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg" class="mx-auto absolute top-0 left-[50%] -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -1044,15 +1084,15 @@
                         </defs>
                     </svg>
                     </div>
-                     <h3 class="text-[16px] text-[#8D90A8] font-semibold text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                     <h3 class="md:text-base text-sm  text-[#8D90A8] font-semibold text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     Learn More
                     </h3>
                   </div>
                 </div>
               <!-- AI Perform -->
-              <div class="group box-content size-32 p-10 bg-white ml-2 rounded-[20px] relative overflow-hidden transition-all duration-300 hover:bg-[#080C2E] hover:shadow-lg cursor-pointer">
+              <div class="group box-content md:size-32 size-[100px] p-10 bg-white lg:ml-6 rounded-[20px] relative overflow-hidden transition-all duration-300 hover:bg-[#080C2E] hover:shadow-lg cursor-pointer">
               <div class="relative z-10">
-                <div class="px-10">
+                <div class="md:px-10 px-[26px]">
                     <svg width="46" height="47" viewBox="0 0 46 47" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12.4583 42.6667V29.25" stroke="#640EF1" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M12.4583 10.0833V4.33325" stroke="#640EF1" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -1062,7 +1102,7 @@
                     <path d="M39.2917 21.5833V33.0833C39.2917 35.1917 38.3333 36.9167 35.4583 36.9167H31.625C28.75 36.9167 27.7917 35.1917 27.7917 33.0833V21.5833C27.7917 19.475 28.75 17.75 31.625 17.75H35.4583C38.3333 17.75 39.2917 19.475 39.2917 21.5833Z" stroke="#640EF1" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                   </div>
-                    <h3 class="text-[18px] font-bold mt-5 text-center group-hover:text-white transition-all duration-300">AI Perform</h3>
+                    <h3 class="md:text-lg text-base font-bold mt-6 text-center group-hover:text-white transition-all duration-300 leading-none">AI Perform</h3>
                     <!-- Hover Effect -->
                      <div class="p-2 ml-6 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300" >
                         <svg width="46" height="47" viewBox="0 0 46 47" fill="none" xmlns="http://www.w3.org/2000/svg" class="mx-auto absolute top-0 left-[49%] -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -1089,25 +1129,25 @@
                     </defs>
                     </svg>
                     </div>
-                    <h3 class="text-[16px] text-[#8D90A8] font-semibold text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <h3 class="md:text-base text-sm text-[#8D90A8] font-semibold text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 leading-none">
                     Learn More
                     </h3>
                     </div>
                     </div>
             <!-- Top Pulings+ -->
-              <div class="group box-content size-32 p-10 bg-white ml-10 rounded-[20px] relative overflow-hidden transition-all duration-300 hover:bg-[#080C2E] hover:shadow-lg cursor-pointer">
+              <div class="group box-content md:size-32 size-[100px] p-10 md:ml-2 place-items-center bg-white rounded-[20px] relative overflow-hidden transition-all duration-300 hover:bg-[#080C2E] hover:shadow-lg cursor-pointer">
               <div class="relative z-10">
-                <div class="px-10">
+                  <div class="md:px-10 px-[26px]">
                     <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M32.675 36.8784H14.6583C13.8533 36.8784 12.9525 36.2459 12.6841 35.4793L4.74914 13.2843C3.61831 10.1026 4.94081 9.1251 7.66247 11.0801L15.1375 16.4276C16.3833 17.2901 17.8016 16.8493 18.3383 15.4501L21.7116 6.46094C22.785 3.58594 24.5675 3.58594 25.6408 6.46094L29.0141 15.4501C29.5508 16.8493 30.9691 17.2901 32.1958 16.4276L39.2108 11.4251C42.2008 9.27844 43.6383 10.3709 42.4116 13.8401L34.6683 35.5176C34.3808 36.2459 33.48 36.8784 32.675 36.8784Z" stroke="#640EF1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M13.125 42.6667H34.2083" stroke="#640EF1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M18.875 27.3333H28.4583" stroke="#640EF1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                   </div>
-                    <h3 class="text-[18px] font-bold mt-5 text-center group-hover:text-white transition-all duration-300">Top Plugins+</h3>
+                    <h3 class="md:text-lg font-bold md:mt-6 mt-4 items-center text-center group-hover:text-white transition-all duration-300 leading-none">Top Plugins+</h3>
                     <!-- Hover Effect -->
-                     <div class="p-2 ml-6 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg" class="mx-auto absolute top-[0] right-[14%]  -translate-x-1/2  group-hover:opacity-100 transition-opacity duration-300">
+                     <div class="p-2 ml-2 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg" class="mx-auto absolute top-[0] md:right-[12%] right-[3%]  -translate-x-1/2  group-hover:opacity-100 transition-opacity duration-300">
                     <path d="M32.675 36.8784H14.6583C13.8533 36.8784 12.9525 36.2459 12.6841 35.4793L4.74914 13.2843C3.61831 10.1026 4.94081 9.1251 7.66247 11.0801L15.1375 16.4276C16.3833 17.2901 17.8016 16.8493 18.3383 15.4501L21.7116 6.46094C22.785 3.58594 24.5675 3.58594 25.6408 6.46094L29.0141 15.4501C29.5508 16.8493 30.9691 17.2901 32.1958 16.4276L39.2108 11.4251C42.2008 9.27844 43.6383 10.3709 42.4116 13.8401L34.6683 35.5176C34.3808 36.2459 33.48 36.8784 32.675 36.8784Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M13.125 42.6667H34.2083" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M18.875 27.3333H28.4583" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
@@ -1128,17 +1168,18 @@
                     </defs>
                     </svg>
                     </div>
-                    <h3 class="text-[16px] text-[#8D90A8] font-semibold text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <h3 class="md:text-base text-sm text-[#8D90A8] font-semibold text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 ">
                     Learn More
                     </h3>
                     </div>
                     </div>
                 </div>
             </div>
-         </section> 
+       </section>
+         </section>  
        <!-- Footer -->
           <!-- Logo -->
-           <div class="flex flex-row gap-x-10 justify-evenly m-10">
+           <div class="flex md:flex-row flex-col gap-x-10 justify-evenly m-10">
            <div class="flex flex-col  mt-10">
             <div class="flex items-center">
             <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1154,10 +1195,10 @@
               <path d="M37.4603 27.9528C37.9628 26.8806 35.675 24.7484 32.3504 23.1903C29.0258 21.6322 25.9234 21.2384 25.4209 22.3105C24.9184 23.3828 27.2062 25.515 30.5308 27.0731C33.8554 28.6311 36.9579 29.025 37.4603 27.9528Z" fill="#640EF1"/>
               <path d="M30.4671 35.864C31.4695 35.2338 30.6978 32.203 28.7435 29.0948C26.7892 25.9866 24.3922 23.9778 23.3898 24.6081C22.3874 25.2383 23.1591 28.269 25.1134 31.3773C27.0678 34.4855 29.4647 36.4943 30.4671 35.864Z" fill="#640EF1"/>
               </svg>
-            <h3 class="text-[28px] font-bold text-white ml-2 mt-">Weserve.</h3>
+            <h3 class="text-[28px] font-bold text-white ml-2">Weserve.</h3>
             
            </div>
-            <p class="text-[#8D90A8] text-base mt-8">We host your empire business today <br/>
+            <p class="text-[#8D90A8] md:text-base text-sm md:mt-8 mt-4 ml-2 leading-[2]">We host your empire business today <br/>
                 using the latest technologies.</p>
             <div class="flex mt-8 gap-4">
             <svg width="45" height="44" viewBox="0 0 45 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1187,7 +1228,8 @@
             </svg>
            </div>
           </div>
-           <div class="flex-col mr-10 ml-10 mt-10">
+          <div class="grid md:grid-cols-3 grid-cols-2 gap-x-10">
+           <div class="flex-col md:mr-10 mr-10 md:ml-10 ml mt-10">
             <a href="./products.html" class=" text-[18px] text-white font-bold">Products</a>
             <p class="text-base text-[#8D90A8] font-medium mt-6">Powerful Reports</p>
             <p class="text-base text-[#8D90A8] font-medium mt-4">Blockchain</p>
@@ -1210,6 +1252,7 @@
             <p class="text-base text-[#8D90A8] font-medium mt-4">Investor Relations</p>
             <p class="text-base text-[#8D90A8] font-medium mt-4">Join With Us</p>
             <p class="text-base text-[#8D90A8] font-medium mt-4">Our Statistics</p>
+           </div>
            </div>
            </div>
            <!-- Copyright -->
@@ -1236,5 +1279,7 @@
             }
           });
       </script>
+      <!-- Accordion -->
+         <script src="https://unpkg.com/flowbite@1.3.3/dist/flowbite.js"></script>
 </body>
 </html>
