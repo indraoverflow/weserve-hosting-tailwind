@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="bg-[#F1F4F5] font-['Poppins']">
-    <div class="flex flex-col md:px-10 px-3 justify-between">
-    <nav class="relative px-4 py-4 flex justify-between items-center bg-[#F1F4F5] m-10">
+    <div class="flex flex-col md:px-10 px-3 justify-evenly">
+    <nav class="relative px-4 py-4 flex justify-between items-center bg-[#F1F4F5] md:m-10 mt-10">
       <div class="flex items-center justify-evenly">
 		<a class="flex items-center text-3xl font-bold leading-none" href="#">
       <!-- Logo -->
@@ -73,7 +73,7 @@
   </div>
   </a>
     <!-- Hamburger menu -->
-		<div class="lg:hidden transition duration-300 ease-in-out">
+		<div class="lg:hidden transition duration-300 ease-in-out justify-between">
 			<button class="navbar-burger flex items-center color-[#8D90A8] p-3">
 				<svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
 					<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
@@ -81,7 +81,7 @@
 			</button>
 		</div>
     <!-- Navbar -->
-		<ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
+		<ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:items-center lg:w-auto lg:space-x-6 md:space-x-6 px-12">
             <li>
                 <a href="#" class="text-base text-indigo-950 hover:font-semibold hover:text-violet-700">Products</a>
             </li>
@@ -99,7 +99,7 @@
             </li>
         </ul>
          <!-- icon cart -->
-      <div class="flex flex-row items-center gap-x-3 transition duration-150 ease-in-out transform hover:scale-105 cursor-pointer w-fit hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 rounded-xl">
+      <div class="flex flex-row items-center gap-x-3 transition duration-150 ease-in-out transform hover:scale-105 cursor-pointer w-fit hidden lg:inline-block lg:ml-auto md:mr-4 py-2 lg:px-0 md:px-6 rounded-xl">
         <div class="rounded-full flex p-[2px] items-center">
         <svg width="45" height="44" viewBox="0 0 45 44" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect x="0.5" width="44" height="44" rx="22" fill="white"/>
@@ -202,7 +202,7 @@
                 </p>
             </div>
             <div class="flex flex-row gap-y-7 gap-x-4 items-center">
-                <a href="#" class="text-lg md:text-base text-sm hover:bg-indigo-950 bg-violet-700 text-white md:py-4 md:px-8 py-3 px-4 rounded-full font-semibold px-10">
+                <a href="#" class="text-lg md:text-base text-sm hover:bg-indigo-950 bg-violet-700 text-white lg:py-4 lg:px-8 py-3 px-4 rounded-full font-semibold px-10">
                   Try Free Trial</a> 
             <a href="#" class="flex gap-x-2 text-violet-700 font-semibold lg:text-lg md:text-base text-sm ml-2">
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -217,15 +217,15 @@
                 Schedule Demo</a>
             </div>
          </div>
-         <div class="flex md:flex-row py-6 px-4 items-center">
-            <img src="images/illustration-header.png" class="lg:h-[550px] h-[350px]">
+         <div class="flex md:flex-row py-6 px-4 items-center md:mt-0 mt-4 ml-10">
+            <img src="images/illustration-header.png" class="xl:h-[550px] lg:h-[450px] h-[350px]">
          </div>
       </div>
     </section>
 
-    <div class="section partners max-w-6-xl mx-auto md:py-12">
-        <div class="flex md:flex-row flex-col gap-6 md:gap-x-10 px-10 justify-center md:items-center">
-            <svg width="142" height="34" viewBox="0 0 142 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <div class="section partners max-w-6-xl mx-auto w-full md:py-12 place-items-center md:gap-12 md:px-10 md:justify-evenly px-10 justify-evenly">
+        <div class="grid lg:grid-cols-5 sm:grid-cols-3 grid-cols-2 w-full md:items-evenly md:place-items-center place-items-center">
+            <svg class="xl:ml-[200px] sm:ml-[20px] mr-[10px]" width="142" height="34" viewBox="0 0 142 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_1_375)">
                 <path d="M43.3155 24.3168H53.2269V21.3314H46.8382V10.0865H43.3155V24.3168Z" fill="#080C2E"/>
                 <path d="M59.099 22.3266C57.6859 22.3266 56.9496 21.0926 56.9496 19.2417C56.9496 17.3907 57.6859 16.1369 59.099 16.1369C60.5121 16.1369 61.2684 17.3907 61.2684 19.2417C61.2684 21.0926 60.5121 22.3266 59.099 22.3266ZM59.1189 24.6352C62.4028 24.6352 64.5523 22.3067 64.5523 19.2417C64.5523 16.1767 62.4028 13.8481 59.1189 13.8481C55.8549 13.8481 53.6656 16.1767 53.6656 19.2417C53.6656 22.3067 55.8549 24.6352 59.1189 24.6352Z" fill="#080C2E"/>
@@ -244,7 +244,7 @@
                 </clipPath>
                 </defs>
             </svg>
-            <svg width="155" height="34" viewBox="0 0 155 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="xl:ml-[100px] sm:ml-[0px] ml-10" width="155" height="34" viewBox="0 0 155 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M45.8777 22.6914C45.8777 23.4336 45.7253 24.0039 45.4206 24.4023C45.1238 24.8008 44.6277 25 43.9324 25C43.2761 25 42.8113 24.8008 42.5378 24.4023C42.2722 24.0039 42.1394 23.4336 42.1394 22.6914V10.3047C42.1394 9.5625 42.2722 8.99219 42.5378 8.59375C42.8113 8.19531 43.2761 7.99609 43.9324 7.99609C44.6277 7.99609 45.1238 8.19531 45.4206 8.59375C45.7253 8.99219 45.8777 9.5625 45.8777 10.3047V22.6914Z" fill="#080C2E"/>
                 <path d="M47.0125 19.0938C47.0125 18.2656 47.1453 17.4844 47.411 16.75C47.6844 16.0078 48.0906 15.3594 48.6297 14.8047C49.1766 14.25 49.8563 13.8086 50.6688 13.4805C51.4891 13.1523 52.45 12.9883 53.5516 12.9883C54.6063 12.9883 55.5399 13.1406 56.3524 13.4453C57.1649 13.75 57.8485 14.1758 58.4031 14.7227C58.9578 15.2617 59.3797 15.9062 59.6688 16.6562C59.9578 17.3984 60.1024 18.2109 60.1024 19.0938C60.1024 19.9141 59.9656 20.6914 59.6922 21.4258C59.4188 22.1523 59.0086 22.793 58.4617 23.3477C57.9149 23.8945 57.2313 24.332 56.411 24.6602C55.5906 24.9805 54.6375 25.1406 53.5516 25.1406C52.4813 25.1406 51.536 24.9883 50.7156 24.6836C49.9031 24.3711 49.2196 23.9453 48.6649 23.4062C48.118 22.8594 47.7039 22.2188 47.4227 21.4844C47.1492 20.7422 47.0125 19.9453 47.0125 19.0938ZM50.9149 19.0938C50.9149 19.6094 50.9617 20.1016 51.0555 20.5703C51.1492 21.0312 51.2977 21.4375 51.5008 21.7891C51.7117 22.1406 51.9852 22.4219 52.3211 22.6328C52.6571 22.8359 53.0672 22.9375 53.5516 22.9375C53.9969 22.9375 54.3836 22.8438 54.7117 22.6562C55.0477 22.4688 55.3211 22.207 55.5321 21.8711C55.7508 21.5352 55.9149 21.1328 56.0242 20.6641C56.1336 20.1875 56.1883 19.6641 56.1883 19.0938C56.1883 18.5781 56.1375 18.0898 56.036 17.6289C55.9422 17.1602 55.7899 16.75 55.5789 16.3984C55.368 16.0391 55.0946 15.7578 54.7586 15.5547C54.4305 15.3438 54.0281 15.2383 53.5516 15.2383C53.075 15.2383 52.6688 15.3398 52.3328 15.543C51.9969 15.7461 51.7235 16.0234 51.5125 16.375C51.3016 16.7266 51.1492 17.1367 51.0555 17.6055C50.9617 18.0742 50.9149 18.5703 50.9149 19.0938Z" fill="#080C2E"/>
                 <path d="M69.7216 22.7383C69.5106 23.1289 69.2528 23.4609 68.9481 23.7344C68.6513 24.0078 68.3192 24.2344 67.9521 24.4141C67.5927 24.5859 67.206 24.7148 66.7919 24.8008C66.3856 24.8789 65.9677 24.918 65.538 24.918C64.8192 24.918 64.163 24.7891 63.5692 24.5312C62.9755 24.2734 62.4638 23.9023 62.0341 23.418C61.6122 22.9258 61.2841 22.3242 61.0497 21.6133C60.8153 20.9023 60.6981 20.0898 60.6981 19.1758C60.6981 18.3164 60.8075 17.5117 61.0263 16.7617C61.245 16.0117 61.5614 15.3594 61.9755 14.8047C62.3974 14.25 62.913 13.8125 63.5224 13.4922C64.1317 13.1719 64.8271 13.0117 65.6083 13.0117C66.4989 13.0117 67.288 13.1836 67.9755 13.5273C68.6708 13.8711 69.2685 14.4336 69.7685 15.2148V14.9102C69.7685 14.3477 69.9208 13.9258 70.2255 13.6445C70.538 13.3555 70.9677 13.2109 71.5146 13.2109C71.8427 13.2109 72.12 13.2656 72.3466 13.375C72.5731 13.4766 72.7528 13.6328 72.8856 13.8438C73.0185 14.0469 73.1122 14.3008 73.1669 14.6055C73.2294 14.9023 73.2606 15.2422 73.2606 15.625V23.4766C73.2606 24.4297 73.1396 25.2812 72.8974 26.0312C72.663 26.7812 72.2958 27.4141 71.7958 27.9297C71.2958 28.4453 70.6552 28.8359 69.8739 29.1016C69.0927 29.375 68.163 29.5117 67.0849 29.5117C66.3271 29.5117 65.6552 29.4766 65.0692 29.4062C64.4911 29.3438 63.9911 29.2461 63.5692 29.1133C63.1474 28.9648 62.8271 28.8008 62.6083 28.6211C62.3974 28.4414 62.2919 28.207 62.2919 27.918C62.2919 27.7539 62.3153 27.5977 62.3622 27.4492C62.4091 27.3008 62.4794 27.168 62.5731 27.0508C62.6747 26.9414 62.8036 26.8516 62.9599 26.7812C63.1239 26.7188 63.3231 26.6875 63.5575 26.6875C63.8075 26.6875 64.0575 26.7031 64.3075 26.7344C64.5653 26.7656 64.831 26.7969 65.1044 26.8281C65.3856 26.8672 65.6786 26.9023 65.9833 26.9336C66.2958 26.9648 66.6317 26.9805 66.9911 26.9805C67.4208 26.9805 67.8036 26.9375 68.1396 26.8516C68.4755 26.7656 68.7606 26.6133 68.995 26.3945C69.2294 26.1758 69.4091 25.8828 69.5341 25.5156C69.6591 25.1562 69.7216 24.6953 69.7216 24.1328V22.7383ZM69.7216 19.0938C69.7216 18.5234 69.6786 18.0039 69.5927 17.5352C69.5146 17.0664 69.3778 16.668 69.1825 16.3398C68.9872 16.0039 68.7255 15.7461 68.3974 15.5664C68.0692 15.3789 67.6591 15.2852 67.1669 15.2852C66.6825 15.2852 66.2802 15.3828 65.9599 15.5781C65.6474 15.7734 65.3974 16.043 65.2099 16.3867C65.0224 16.7305 64.8896 17.1328 64.8114 17.5938C64.7411 18.0547 64.706 18.5469 64.706 19.0703C64.706 20.2656 64.9169 21.1641 65.3388 21.7656C65.7606 22.3672 66.3739 22.668 67.1786 22.668C67.5536 22.6602 67.8935 22.5898 68.1981 22.457C68.5106 22.3164 68.7802 22.1016 69.0067 21.8125C69.2333 21.5234 69.4091 21.1562 69.5341 20.7109C69.6591 20.2656 69.7216 19.7266 69.7216 19.0938Z" fill="#080C2E"/>
@@ -258,7 +258,7 @@
                 <path d="M6.14451 19.0496C4.40576 19.3562 3.21394 21.0358 3.88139 22.6704C4.81323 24.9524 6.29986 26.9856 8.22717 28.5744C10.9831 30.8461 14.4591 32.06 18.0301 31.9977C21.6011 31.9354 25.0327 30.6009 27.7077 28.2343C29.5783 26.5793 30.9931 24.4954 31.8448 22.1823C32.4548 20.5254 31.205 18.8884 29.4566 18.6427C27.7083 18.397 26.1385 19.6696 25.2749 21.2096C24.8068 22.0443 24.1991 22.8016 23.4711 23.4457C21.9363 24.8036 19.9674 25.5692 17.9186 25.605C15.8697 25.6407 13.8753 24.9443 12.2941 23.6408C11.544 23.0225 10.9103 22.2869 10.4133 21.469C9.49651 19.9601 7.88326 18.743 6.14451 19.0496Z" fill="#080C2E"/>
                 <path d="M32.6523 18.8745C32.7289 18.2604 32.7683 17.6348 32.7683 17C32.7683 8.71573 26.0526 2 17.7683 2C9.48401 2 2.76828 8.71573 2.76828 17C2.76828 17.8147 2.83323 18.6142 2.95824 19.3937C3.64722 18.4505 4.72254 17.7772 5.88404 17.5724C7.14073 17.3508 8.28286 17.6556 9.24855 18.2253C9.1915 17.8251 9.16198 17.416 9.16198 17C9.16198 12.2469 13.0152 8.3937 17.7683 8.3937C22.5214 8.3937 26.3746 12.2469 26.3746 17C26.3746 17.3134 26.3578 17.6229 26.3252 17.9276C27.2705 17.3243 28.4015 16.9796 29.6654 17.1573C30.833 17.3214 31.9308 17.9564 32.6523 18.8745Z" fill="#080C2E"/>
             </svg>                
-            <svg width="155" height="34" viewBox="0 0 155 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="xl:mr-[10px] lg:mr-[0px] sm:ml-[0px] ml-12 m-10" width="155" height="34" viewBox="0 0 155 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M45.8777 22.6914C45.8777 23.4336 45.7253 24.0039 45.4206 24.4023C45.1238 24.8008 44.6277 25 43.9324 25C43.2761 25 42.8113 24.8008 42.5378 24.4023C42.2722 24.0039 42.1394 23.4336 42.1394 22.6914V10.3047C42.1394 9.5625 42.2722 8.99219 42.5378 8.59375C42.8113 8.19531 43.2761 7.99609 43.9324 7.99609C44.6277 7.99609 45.1238 8.19531 45.4206 8.59375C45.7253 8.99219 45.8777 9.5625 45.8777 10.3047V22.6914Z" fill="#080C2E"/>
                 <path d="M47.0125 19.0938C47.0125 18.2656 47.1453 17.4844 47.411 16.75C47.6844 16.0078 48.0906 15.3594 48.6297 14.8047C49.1766 14.25 49.8563 13.8086 50.6688 13.4805C51.4891 13.1523 52.45 12.9883 53.5516 12.9883C54.6063 12.9883 55.5399 13.1406 56.3524 13.4453C57.1649 13.75 57.8485 14.1758 58.4031 14.7227C58.9578 15.2617 59.3797 15.9062 59.6688 16.6562C59.9578 17.3984 60.1024 18.2109 60.1024 19.0938C60.1024 19.9141 59.9656 20.6914 59.6922 21.4258C59.4188 22.1523 59.0086 22.793 58.4617 23.3477C57.9149 23.8945 57.2313 24.332 56.411 24.6602C55.5906 24.9805 54.6375 25.1406 53.5516 25.1406C52.4813 25.1406 51.536 24.9883 50.7156 24.6836C49.9031 24.3711 49.2196 23.9453 48.6649 23.4062C48.118 22.8594 47.7039 22.2188 47.4227 21.4844C47.1492 20.7422 47.0125 19.9453 47.0125 19.0938ZM50.9149 19.0938C50.9149 19.6094 50.9617 20.1016 51.0555 20.5703C51.1492 21.0312 51.2977 21.4375 51.5008 21.7891C51.7117 22.1406 51.9852 22.4219 52.3211 22.6328C52.6571 22.8359 53.0672 22.9375 53.5516 22.9375C53.9969 22.9375 54.3836 22.8438 54.7117 22.6562C55.0477 22.4688 55.3211 22.207 55.5321 21.8711C55.7508 21.5352 55.9149 21.1328 56.0242 20.6641C56.1336 20.1875 56.1883 19.6641 56.1883 19.0938C56.1883 18.5781 56.1375 18.0898 56.036 17.6289C55.9422 17.1602 55.7899 16.75 55.5789 16.3984C55.368 16.0391 55.0946 15.7578 54.7586 15.5547C54.4305 15.3438 54.0281 15.2383 53.5516 15.2383C53.075 15.2383 52.6688 15.3398 52.3328 15.543C51.9969 15.7461 51.7235 16.0234 51.5125 16.375C51.3016 16.7266 51.1492 17.1367 51.0555 17.6055C50.9617 18.0742 50.9149 18.5703 50.9149 19.0938Z" fill="#080C2E"/>
                 <path d="M69.7216 22.7383C69.5106 23.1289 69.2528 23.4609 68.9481 23.7344C68.6513 24.0078 68.3192 24.2344 67.9521 24.4141C67.5927 24.5859 67.206 24.7148 66.7919 24.8008C66.3856 24.8789 65.9677 24.918 65.538 24.918C64.8192 24.918 64.163 24.7891 63.5692 24.5312C62.9755 24.2734 62.4638 23.9023 62.0341 23.418C61.6122 22.9258 61.2841 22.3242 61.0497 21.6133C60.8153 20.9023 60.6981 20.0898 60.6981 19.1758C60.6981 18.3164 60.8075 17.5117 61.0263 16.7617C61.245 16.0117 61.5614 15.3594 61.9755 14.8047C62.3974 14.25 62.913 13.8125 63.5224 13.4922C64.1317 13.1719 64.8271 13.0117 65.6083 13.0117C66.4989 13.0117 67.288 13.1836 67.9755 13.5273C68.6708 13.8711 69.2685 14.4336 69.7685 15.2148V14.9102C69.7685 14.3477 69.9208 13.9258 70.2255 13.6445C70.538 13.3555 70.9677 13.2109 71.5146 13.2109C71.8427 13.2109 72.12 13.2656 72.3466 13.375C72.5731 13.4766 72.7528 13.6328 72.8856 13.8438C73.0185 14.0469 73.1122 14.3008 73.1669 14.6055C73.2294 14.9023 73.2606 15.2422 73.2606 15.625V23.4766C73.2606 24.4297 73.1396 25.2812 72.8974 26.0312C72.663 26.7812 72.2958 27.4141 71.7958 27.9297C71.2958 28.4453 70.6552 28.8359 69.8739 29.1016C69.0927 29.375 68.163 29.5117 67.0849 29.5117C66.3271 29.5117 65.6552 29.4766 65.0692 29.4062C64.4911 29.3438 63.9911 29.2461 63.5692 29.1133C63.1474 28.9648 62.8271 28.8008 62.6083 28.6211C62.3974 28.4414 62.2919 28.207 62.2919 27.918C62.2919 27.7539 62.3153 27.5977 62.3622 27.4492C62.4091 27.3008 62.4794 27.168 62.5731 27.0508C62.6747 26.9414 62.8036 26.8516 62.9599 26.7812C63.1239 26.7188 63.3231 26.6875 63.5575 26.6875C63.8075 26.6875 64.0575 26.7031 64.3075 26.7344C64.5653 26.7656 64.831 26.7969 65.1044 26.8281C65.3856 26.8672 65.6786 26.9023 65.9833 26.9336C66.2958 26.9648 66.6317 26.9805 66.9911 26.9805C67.4208 26.9805 67.8036 26.9375 68.1396 26.8516C68.4755 26.7656 68.7606 26.6133 68.995 26.3945C69.2294 26.1758 69.4091 25.8828 69.5341 25.5156C69.6591 25.1562 69.7216 24.6953 69.7216 24.1328V22.7383ZM69.7216 19.0938C69.7216 18.5234 69.6786 18.0039 69.5927 17.5352C69.5146 17.0664 69.3778 16.668 69.1825 16.3398C68.9872 16.0039 68.7255 15.7461 68.3974 15.5664C68.0692 15.3789 67.6591 15.2852 67.1669 15.2852C66.6825 15.2852 66.2802 15.3828 65.9599 15.5781C65.6474 15.7734 65.3974 16.043 65.2099 16.3867C65.0224 16.7305 64.8896 17.1328 64.8114 17.5938C64.7411 18.0547 64.706 18.5469 64.706 19.0703C64.706 20.2656 64.9169 21.1641 65.3388 21.7656C65.7606 22.3672 66.3739 22.668 67.1786 22.668C67.5536 22.6602 67.8935 22.5898 68.1981 22.457C68.5106 22.3164 68.7802 22.1016 69.0067 21.8125C69.2333 21.5234 69.4091 21.1562 69.5341 20.7109C69.6591 20.2656 69.7216 19.7266 69.7216 19.0938Z" fill="#080C2E"/>
@@ -272,7 +272,7 @@
                 <path d="M6.14451 19.0496C4.40576 19.3562 3.21394 21.0358 3.88139 22.6704C4.81323 24.9524 6.29986 26.9856 8.22717 28.5744C10.9831 30.8461 14.4591 32.06 18.0301 31.9977C21.6011 31.9354 25.0327 30.6009 27.7077 28.2343C29.5783 26.5793 30.9931 24.4954 31.8448 22.1823C32.4548 20.5254 31.205 18.8884 29.4566 18.6427C27.7083 18.397 26.1385 19.6696 25.2749 21.2096C24.8068 22.0443 24.1991 22.8016 23.4711 23.4457C21.9363 24.8036 19.9674 25.5692 17.9186 25.605C15.8697 25.6407 13.8753 24.9443 12.2941 23.6408C11.544 23.0225 10.9103 22.2869 10.4133 21.469C9.49651 19.9601 7.88326 18.743 6.14451 19.0496Z" fill="#080C2E"/>
                 <path d="M32.6523 18.8745C32.7289 18.2604 32.7683 17.6348 32.7683 17C32.7683 8.71573 26.0526 2 17.7683 2C9.48401 2 2.76828 8.71573 2.76828 17C2.76828 17.8147 2.83323 18.6142 2.95824 19.3937C3.64722 18.4505 4.72254 17.7772 5.88404 17.5724C7.14073 17.3508 8.28286 17.6556 9.24855 18.2253C9.1915 17.8251 9.16198 17.416 9.16198 17C9.16198 12.2469 13.0152 8.3937 17.7683 8.3937C22.5214 8.3937 26.3746 12.2469 26.3746 17C26.3746 17.3134 26.3578 17.6229 26.3252 17.9276C27.2705 17.3243 28.4015 16.9796 29.6654 17.1573C30.833 17.3214 31.9308 17.9564 32.6523 18.8745Z" fill="#080C2E"/>
             </svg>
-            <svg width="142" height="34" viewBox="0 0 142 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="xl:mr-[330px] lg:mr-[250px] sm:ml-[240px] ml-10" width="142" height="34" viewBox="0 0 142 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_1_410)">
                 <path d="M42.7789 24.3168H52.6903V21.3314H46.3016V10.0865H42.7789V24.3168Z" fill="#640EF1"/>
                 <path d="M58.5625 22.3266C57.1494 22.3266 56.413 21.0926 56.413 19.2417C56.413 17.3907 57.1494 16.1369 58.5625 16.1369C59.9755 16.1369 60.7318 17.3907 60.7318 19.2417C60.7318 21.0926 59.9755 22.3266 58.5625 22.3266ZM58.5824 24.6352C61.8663 24.6352 64.0157 22.3067 64.0157 19.2417C64.0157 16.1767 61.8663 13.8481 58.5824 13.8481C55.3184 13.8481 53.1291 16.1767 53.1291 19.2417C53.1291 22.3067 55.3184 24.6352 58.5824 24.6352Z" fill="#640EF1"/>
@@ -291,7 +291,7 @@
                 </clipPath>
                 </defs>
             </svg>
-            <svg width="142" height="34" viewBox="0 0 142 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="xl:mr-[450px] lg:mr-[220px] sm:ml-[200px] ml-[150px] place-items-center" width="142" height="34" viewBox="0 0 142 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_1_421)">
                 <path d="M43.2377 23.3339H53.1491V20.3486H46.7604V9.1037H43.2377V23.3339Z" fill="#080C2E"/>
                 <path d="M59.0212 21.3437C57.6082 21.3437 56.8718 20.1098 56.8718 18.2588C56.8718 16.4079 57.6082 15.154 59.0212 15.154C60.4343 15.154 61.1906 16.4079 61.1906 18.2588C61.1906 20.1098 60.4343 21.3437 59.0212 21.3437ZM59.0411 23.6524C62.325 23.6524 64.4745 21.3238 64.4745 18.2588C64.4745 15.1939 62.325 12.8653 59.0411 12.8653C55.7771 12.8653 53.5879 15.1939 53.5879 18.2588C53.5879 21.3238 55.7771 23.6524 59.0411 23.6524Z" fill="#080C2E"/>
@@ -313,13 +313,13 @@
         </div>
     </div>
 
-    <section class="features lg:max-w-6xl max-w-xl mx-auto py-12">
+    <section class="features lg:max-w-6xl max-w-xl mx-auto py-12 md:mt-0 mt-6">
         <h3 class="text-indigo-950 font-['Clash_Display'] lg:text-5xl md:text-4xl text-3xl text-center mb-7">
             Your Best Choice
         </h3>
-        <div class="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 place-items-center">
+          <div class="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:place-items-center place-items-center lg:gap-x-8">
         <!-- Extra Layers -->
-             <div class="grid lg:grid-cols-4 gap-x-10">
+             <div class="grid xl:grid-cols-4 gap-x-10 xl:ml-0 lg:ml-[140px]">
             <div class="relative group size-[250px] md:mt-10 md:mb-8 mt-5 mb-5 flex-col bg-white transition-all duration-300 hover:bg-[#080C2E] rounded-2xl px-5 py-4 gap-y-8 gap-x-10 overflow-hidden">
             <!--Hover -->
             <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -373,7 +373,7 @@
           </div>
         </div>
         <!-- Customizable -->
-             <div class="grid lg:grid-cols-4 gap-x-6">
+              <div class="grid xl:grid-cols-4 lg:grid-cols-4 xl:mr-0 lg:mr-[238px] whitespace-nowrap">
             <div class="relative group size-[250px] md:mt-10 md:mb-8 mt-5 mb-5 flex-col bg-white transition-all duration-300 hover:bg-[#080C2E] rounded-2xl px-5 py-4 gap-y-8 gap-x-10 overflow-hidden">
             <!--Hover -->
             <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -419,7 +419,7 @@
           </div>
         </div>
             <!-- AI Automation -->
-             <div class="grid lg:grid-cols-4 gap-x-8">
+                      <div class="grid xl:grid-cols-4 gap-x-10 xl:ml-0 lg:ml-[140px]">
             <div class="relative group size-[250px] md:mt-10 md:mb-8 mt-5 mb-5 flex-col bg-white transition-all duration-300 hover:bg-[#080C2E] rounded-2xl px-5 py-4 gap-y-8 gap-x-10 overflow-hidden">
             <!--Hover -->
             <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-90 transition-opacity duration-300">
@@ -530,7 +530,7 @@
         </div>
     </section>
 
-    <section class="benefits max-w-6xl mx-auto py-12">
+    <section class="benefits max-w-6xl mx-auto md:py-12">
         <div class="md:flex flex-row items-center gap-x-24">
             <div class="flex flex-row items-center md:px-0 px-12">
                 <img src="images/illustration-benefits.png" class="lg:w-[650px] md:w-[650px] w-[350px]">
@@ -547,7 +547,7 @@
                     </p>
                 </div>
                 <div class="flex flex-col gap-y-5">
-                    <div class="card-benefits flex flex-row bg-white rounded-2xl p-5 items-center gap-x-3 lg:w-[500px] w-[350px]">
+                    <div class="card-benefits flex flex-row bg-white rounded-2xl p-5 items-center gap-x-3 lg:w-[460px] w-[350px]">
                         <svg width="47" height="46" viewBox="0 0 47 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M18.9 38.3333H28.1C35.7667 38.3333 38.8333 35.2666 38.8333 27.6V18.4C38.8333 10.7333 35.7667 7.66663 28.1 7.66663H18.9C11.2333 7.66663 8.16666 10.7333 8.16666 18.4V27.6C8.16666 35.2666 11.2333 38.3333 18.9 38.3333Z" stroke="#640EF1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M20.625 32.5833H26.375C31.1667 32.5833 33.0833 30.6666 33.0833 25.875V20.125C33.0833 15.3333 31.1667 13.4166 26.375 13.4166H20.625C15.8333 13.4166 13.9167 15.3333 13.9167 20.125V25.875C13.9167 30.6666 15.8333 32.5833 20.625 32.5833Z" stroke="#640EF1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
@@ -625,7 +625,7 @@
         </div>
       </section>
 
-      <section class="showcases mx-auto py-12">
+      <section class="showcases mx-auto py-12 md:mt-0 mt-10">
         <div class="flex flex-col md:gap-y-12 gap-y-8 items-center">
             <div class="flex gap-y-2 flex-col text-center items-center gap-x-10 max-w-6xl">   
                 <h1 class="text-indigo-950 font-['Clash_Display'] lg:text-5xl md:text-4xl text-3xl">
@@ -677,13 +677,13 @@
         <h1 class="text-indigo-950 font-['Clash_Display'] lg:text-5xl md:text-4xl text-3xl text-center pb-12">
             Frequently Asked Questions
         </h1>
-        <div class="grid md:grid-cols-2 gap-x-8">
+        <div class="grid md:grid-cols-2 md:gap-x-8 px-8">
             <div class="parent-cards-faq flex flex-col gap-y-6">
                  <div class="max-w-2xl mx-auto bg-white p-4 gap-x-6 rounded-2xl w-full">
                       <div id="accordion-collapse" data-accordion="collapse" data-active-classes="bg-none text-gray-900 text-white" data-inactive-classes="text-gray-500 dark:text-gray-400">
                           <button type="button" class="flex items-center justify-between w-full font-medium text-left focus:outline-none focus-visible:outline-none focus:ring-0 focus:bg-transparent active:bg-transparent" 
                             data-accordion-target="#accordion-collapse-body-1" aria-expanded="false" aria-controls="accordion-collapse-body-1">
-                            <span class="font-bold text-xl text-indigo-950">
+                            <span class="font-bold lg:text-xl md:text-lg text-indigo-950">
                               Why do we need to use Kapp?
                             </span>
                           <!-- accordion -->
@@ -693,12 +693,12 @@
                         </button>
                         <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
                           <div class="p-0">
-                            <p class="text-base leading-loose text-gray-500 mb-4">
+                            <p class="md:text-base text-sm leading-loose text-gray-500 mb-4">
                             Kapp is able to develop by themselve without removing 
                             the parents permission and lorem dolor si amet fully 
                             run network at 100% avoiding data-loss at any moments
                         </p>
-                        <a href="#" class="flex gap-x-2 text-violet-700 font-semibold mb-4">
+                        <a href="#" class="flex gap-x-2 text-violet-700 md:text-base text-sm font-semibold mb-4">
                             Learn More
                         </a>
                           </div>
@@ -710,7 +710,7 @@
                       <div id="accordion-collapse-2" data-accordion="collapse-2" data-active-classes="bg-none text-gray-900 text-white" data-inactive-classes="text-gray-500 dark:text-gray-400">
                           <button type="button" class="flex items-center justify-between w-full font-medium text-left focus:outline-none focus-visible:outline-none focus:ring-0 focus:bg-transparent active:bg-transparent" 
                             data-accordion-target="#accordion-collapse-body-2" aria-expanded="false" aria-controls="accordion-collapse-body-2">
-                            <span class="font-bold text-xl text-indigo-950">
+                            <span class="font-bold lg:text-xl md:text-lg text-indigo-950">
                               Do we need to pay 6 months per item?
                             </span>
                           <!-- accordion -->
@@ -720,12 +720,12 @@
                         </button>
                         <div id="accordion-collapse-body-2" class="hidden" aria-labelledby="accordion-collapse-body-2">
                           <div class="p-0">
-                            <p class="text-base leading-loose text-gray-500 mb-4">
+                            <p class="md:text-base text-sm leading-loose text-gray-500 mb-4">
                             Kapp is able to develop by themselve without removing 
                             the parents permission and lorem dolor si amet fully 
                             run network at 100% avoiding data-loss at any moments
                         </p>
-                        <a href="#" class="flex gap-x-2 text-violet-700 font-semibold mb-4">
+                        <a href="#" class="flex gap-x-2 md:text-base text-sm text-violet-700 font-semibold mb-4">
                             Learn More
                         </a>
                           </div>
@@ -737,7 +737,7 @@
                       <div id="accordion-collapse-3" data-accordion="collapse-3" data-active-classes="bg-none text-gray-900 text-white" data-inactive-classes="text-gray-500 dark:text-gray-400">
                           <button type="button" class="flex items-center justify-between w-full font-medium text-left focus:outline-none focus-visible:outline-none focus:ring-0 focus:bg-transparent active:bg-transparent" 
                             data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
-                            <span class="font-bold text-xl text-indigo-950">
+                            <span class="font-bold lg:text-xl md:text-lg text-indigo-950">
                               How to migrate from other service?
                             </span>
                           <!-- accordion -->
@@ -747,12 +747,12 @@
                         </button>
                         <div id="accordion-collapse-body-3" class="hidden" aria-labelledby="accordion-collapse-body-3">
                           <div class="p-0">
-                            <p class="text-base leading-loose text-gray-500 mb-4">
+                            <p class="md:text-base text-sm leading-loose text-gray-500 mb-4">
                             Kapp is able to develop by themselve without removing 
                             the parents permission and lorem dolor si amet fully 
                             run network at 100% avoiding data-loss at any moments
                         </p>
-                        <a href="#" class="flex gap-x-2 text-violet-700 font-semibold mb-4">
+                        <a href="#" class="flex gap-x-2 md:text-base text-sm text-violet-700 font-semibold mb-4">
                             Learn More
                         </a>
                           </div>
@@ -767,7 +767,7 @@
                       <div id="accordion-collapse-4" data-accordion="collapse-4" data-active-classes="bg-none text-gray-900 text-white" data-inactive-classes="text-gray-500 dark:text-gray-400">
                           <button type="button" class="flex items-center justify-between w-full font-medium text-left focus:outline-none focus-visible:outline-none focus:ring-0 focus:bg-transparent active:bg-transparent" 
                             data-accordion-target="#accordion-collapse-body-4" aria-expanded="false" aria-controls="accordion-collapse-body-4">
-                            <span class="font-bold text-xl text-indigo-950">
+                            <span class="font-bold lg:text-xl md:text-lg text-indigo-950">
                               What if data doesn’t get stored?
                             </span>
                           <!-- accordion -->
@@ -777,12 +777,12 @@
                         </button>
                         <div id="accordion-collapse-body-4" class="hidden" aria-labelledby="accordion-collapse-heading-4">
                           <div class="p-0">
-                            <p class="text-base leading-loose text-gray-500 mb-4">
+                            <p class="md:text-base text-sm leading-loose text-gray-500 mb-4">
                             Kapp is able to develop by themselve without removing 
                             the parents permission and lorem dolor si amet fully 
                             run network at 100% avoiding data-loss at any moments
                         </p>
-                        <a href="#" class="flex gap-x-2 text-violet-700 font-semibold mb-4">
+                        <a href="#" class="flex gap-x-2 md:text-base text-sm text-violet-700 font-semibold mb-4">
                             Learn More
                         </a>
                           </div>
@@ -794,7 +794,7 @@
                       <div id="accordion-collapse-5" data-accordion="collapse-5" data-active-classes="bg-none text-gray-900 text-white" data-inactive-classes="text-gray-500 dark:text-gray-400">
                           <button type="button" class="flex items-center justify-between w-full font-medium text-left focus:outline-none focus-visible:outline-none focus:ring-0 focus:bg-transparent active:bg-transparent" 
                             data-accordion-target="#accordion-collapse-body-5" aria-expanded="false" aria-controls="accordion-collapse-body-5">
-                            <span class="font-bold text-xl text-indigo-950">
+                            <span class="font-bold lg:text-xl md:text-lg text-indigo-950">
                               Can we guarantee no any loss at all?
                             </span>
                           <!-- accordion -->
@@ -804,12 +804,12 @@
                         </button>
                         <div id="accordion-collapse-body-5" class="hidden" aria-labelledby="accordion-collapse-heading-5">
                           <div class="p-0">
-                            <p class="text-base leading-loose text-gray-500 mb-4">
+                            <p class="md:text-base text-sm leading-loose text-gray-500 mb-4">
                             Kapp is able to develop by themselve without removing 
                             the parents permission and lorem dolor si amet fully 
                             run network at 100% avoiding data-loss at any moments
                         </p>
-                        <a href="#" class="flex gap-x-2 text-violet-700 font-semibold mb-4">
+                        <a href="#" class="flex gap-x-2 text-violet-700 md:text-base text-sm font-semibold mb-4">
                             Learn More
                         </a>
                           </div>
@@ -821,7 +821,7 @@
                       <div id="accordion-collapse-6" data-accordion="collapse-6" data-active-classes="bg-none text-gray-900 text-white" data-inactive-classes="text-gray-500 dark:text-gray-400">
                           <button type="button" class="flex items-center justify-between w-full font-medium text-left focus:outline-none focus-visible:outline-none focus:ring-0 focus:bg-transparent active:bg-transparent" 
                             data-accordion-target="#accordion-collapse-body-6" aria-expanded="false" aria-controls="accordion-collapse-body-6">
-                            <span class="flex gap-x-2 text-white">
+                            <span class="flex gap-x-2 text-white md:text-lg text-sm">
                               <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M20.5 12.2V13.9C20.5 17.05 18.7 18.4 16 18.4H7C4.3 18.4 2.5 17.05 2.5 13.9V8.5C2.5 5.35 4.3 4 7 4H9.7C9.57 4.38 9.5 4.8 9.5 5.25V9.15002C9.5 10.12 9.82 10.94 10.39 11.51C10.96 12.08 11.78 12.4 12.75 12.4V13.79C12.75 14.3 13.33 14.61 13.76 14.33L16.65 12.4H19.25C19.7 12.4 20.12 12.33 20.5 12.2Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M22.5 5.25V9.15002C22.5 10.64 21.74 11.76 20.5 12.2C20.12 12.33 19.7 12.4 19.25 12.4H16.65L13.76 14.33C13.33 14.61 12.75 14.3 12.75 13.79V12.4C11.78 12.4 10.96 12.08 10.39 11.51C9.82 10.94 9.5 10.12 9.5 9.15002V5.25C9.5 4.8 9.57 4.38 9.7 4C10.14 2.76 11.26 2 12.75 2H19.25C21.2 2 22.5 3.3 22.5 5.25Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -840,12 +840,12 @@
                         </button>
                         <div id="accordion-collapse-body-6" class="hidden" aria-labelledby="accordion-collapse-heading-6">
                           <div class="p-0">
-                            <p class="text-base leading-loose text-[#8D90A8] mb-4">
+                            <p class="md:text-base text-sm md:leading-loose leading-loose text-[#8D90A8] mb-4">
                             Kapp is able to develop by themselve without removing 
                             the parents permission and lorem dolor si amet fully 
                             run network at 100% avoiding data-loss at any moments
                         </p>
-                        <a href="#" class="flex gap-x-2 text-violet-700 font-semibold mb-4">
+                        <a href="#" class="flex md:text-lg text-sm gap-x-2 text-violet-700 font-semibold mb-4">
                             Learn More
                         </a>
                           </div>
@@ -914,7 +914,6 @@
                 <h3 class="md:text-lg mt-6 text-center font-bold text-[#080C2E] text- group-hover:text-white transition-all duration-300">
                     Web Crawl
                 </h3>
-                <!-- Hover Effect JANGAN SENTUH -->
                  <!-- Icon -->
                  <div class="p-2 ml-6 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg" class="mx-auto absolute top-0 left-[49%] -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
